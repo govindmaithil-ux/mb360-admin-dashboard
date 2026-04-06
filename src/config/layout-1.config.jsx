@@ -249,6 +249,146 @@ export const MENU_SIDEBAR = [
 export const MENU_MEGA = [
   { title: 'Home', path: '/layout-1' },
   {
+    title: 'Components',
+    children: [
+      {
+        title: 'Components',
+        children: [
+          {
+            children: [
+              {
+                title: 'Button',
+                // icon: Badge,
+                path: '/button',
+              },
+              {
+                title: 'Creator',
+                icon: Coffee,
+                path: '#',
+              },
+              {
+                title: 'Company',
+                icon: Building,
+                path: '#',
+              },
+              {
+                title: 'NFT',
+                icon: Bitcoin,
+                path: '#',
+              },
+              {
+                title: 'Blogger',
+                icon: MessageSquare,
+                path: '#',
+              },
+              {
+                title: 'CRM',
+                icon: Monitor,
+                path: '#',
+              },
+              {
+                title: 'Gamer',
+                icon: Ghost,
+                path: '#',
+              },
+            ],
+          },
+          {
+            children: [
+              {
+                title: 'Feeds',
+                icon: Book,
+                path: '#',
+              },
+              {
+                title: 'Plain',
+                icon: FileText,
+                path: '#',
+              },
+              {
+                title: 'Modal',
+                icon: SquareMousePointer,
+                path: '#',
+              },
+              {
+                title: 'Freelancer',
+                icon: Briefcase,
+                path: '#',
+                disabled: true,
+              },
+              { title: 'Developer', icon: Code, path: '#', disabled: true },
+              { title: 'Team', icon: Users, path: '#', disabled: true },
+              {
+                title: 'Events',
+                icon: CalendarCheck,
+                path: '#',
+                disabled: true,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        title: 'Other Pages',
+        children: [
+          {
+            children: [
+              {
+                title: 'Projects - 3 Cols',
+                icon: Layout,
+                path: '#',
+              },
+              {
+                title: 'Projects - 2 Cols',
+                icon: Grid,
+                path: '#',
+              },
+              { title: 'Works', icon: WorkIcon, path: '#' },
+              {
+                title: 'Teams',
+                icon: PeopleIcon,
+                path: '#',
+              },
+              {
+                title: 'Network',
+                icon: Network,
+                path: '#',
+              },
+              {
+                title: 'Activity',
+                icon: TrendingUp,
+                path: '#',
+              },
+              {
+                title: 'Campaigns - Card',
+                icon: LayoutGrid,
+                path: '#',
+              },
+            ],
+          },
+          {
+            children: [
+              {
+                title: 'Campaigns - List',
+                icon: Kanban,
+                path: '#',
+              },
+              { title: 'Empty', icon: FileText, path: '#' },
+              {
+                title: 'Documents',
+                icon: DocumentIcon,
+                path: '#',
+                disabled: true,
+              },
+              { title: 'Badges', icon: Award, path: '#', disabled: true },
+              { title: 'Awards', icon: Gift, path: '#', disabled: true },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
     title: 'Profiles',
     children: [
       {
