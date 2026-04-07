@@ -57,17 +57,6 @@ export const MENU_SIDEBAR = [
       { title: 'Empty Page', path: '#' },
     ],
   },
-   {
-    title: 'Components',
-    icon: LayoutGrid,
-    children: [
-      { title: 'Inputs', path: '/inputs' },
-      { title: 'Radio Button', path: '/radiogroup' },
-      { title: 'Tabs', path: '/tabs' },
-      { title: 'Tooltips', path: '/tooltips' },
-      { title: 'Badge', path: '/badge' },
-    ],
-  },
   { heading: 'User' },
   {
     title: 'Public Profile',
